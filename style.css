@@ -19,16 +19,52 @@ header {
 ul {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
-a {
+a,
+.section-one .subtext {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
 }
 
 #logo {
-  width: 120px;
+  width: 115px;
   height: 100px;
+}
+
+.section-one {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 100px 0;
+}
+
+.section-one .main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+#main-image {
+  width: 385px;
+  height: auto;
+}
+
+.paragraph {
+  width: 450px;
+  height: auto;
+}
+
+.signup-top {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 12px;
 }
