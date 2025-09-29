@@ -87,3 +87,20 @@ a,
 .image-info {
   width: 215px;
 }
+
+i {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+  padding: 100px 300px;
+}
+
+.author {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: end;
+}
